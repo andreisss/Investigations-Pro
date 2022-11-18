@@ -1,0 +1,12 @@
+A system on your network executed the command "adfind.exe -f "(objectcategory=person)" > users.txt"
+
+What do you look for to start investigating this event? 
+
+Assume you have access to any evidence source you want o up the process execution chain. Was it an "automated" or manual execution?
+Which directory was that AdFind executed from? 
+
+Which user ran it? 
+
+What did that user do on the system before running it?
+
+Is AdFind commonly used on that system/network?
