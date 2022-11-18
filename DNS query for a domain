@@ -1,0 +1,8 @@
+A user workstation made a DNS query for a domain that was reported to be associated with malvertising activity.
+
+What do you look for to start investigating this event?
+
+Assume you have access to any evidence source you want.
+
+Just to kick off the investigation - get time of the query, pull proxy logs +/- 15 minutes around this time to see why the user accessed the site
+(SEO-poisoned Google search, phish mail, etc) and validate whether  or not the user actually visited the site after the DNS query
