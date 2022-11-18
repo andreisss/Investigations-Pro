@@ -1,0 +1,9 @@
+Investigation Scenario 🔎
+
+A workstation attempted authentication to every other Windows system on the local network.
+
+What do you look for to start investigating this event?
+
+Assume you have access to any evidence source you want, but no commercial EDR tools.
+
+#InvestigationPath
