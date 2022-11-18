@@ -1,0 +1,10 @@
+You've discovered a file named sam-9834298.dmp on a Windows system. It appears to contain user credentials and is 3 days old.
+
+What do you look for to start investigating this event? 
+
+Assume you have access to any evidence source you want.
+
+1. look at SAM file and learn what accounts were exposed.
+1a. change passwords for all these accounts
+2. look EVERYWHERE in org for unexpected behavior of these accounts
+3. On the box you found SAM, start looking for odd network indicators
