@@ -5,3 +5,6 @@ Someone attempted to authenticate to an SSH intrusion detection honeypot that is
 What do you look for to start investigating this event? 
 
 Assume you have access to any evidence source you want.
+
+I'd rule out flash positives; vuln scanning, network enumeration tools etc.
+After that, tracking down the originating host and determining the authenticity of the connection I.e. was it a network admin investigating the host
