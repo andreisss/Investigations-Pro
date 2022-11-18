@@ -7,3 +7,15 @@ What do you look for to start investigating this event?
 Assume you have access to any evidence source you want, but no commercial EDR tools.
 
 #InvestigationPath
+
+First and foremost, I would consult my CMDB record. Is it a normal user workstation or a specific workstation installed
+with a legit tool that works by crawling and authenticating on all other workstation on the network.
+Ask the product owner to check if the tool behaves that way
+
+ Source and Destination IPs
+- Which Process and Port is responsible 
+- Which User
+- Any connections from External to Source Computer
+- Suspicious Port Connections 
+- Which Commands executed in the past and after the event
+- Which usernames where used on the destination machines
