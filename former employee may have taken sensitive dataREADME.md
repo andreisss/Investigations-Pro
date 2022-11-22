@@ -11,6 +11,8 @@ Assume you have access to any evidence source you want, but no commercial DLP to
 - SRUM forensics and spike in outbound data
 - VPN sessions outside of work hours, and contextualise the above data’s timestamps
 - proxy logs in/out data
+- any File transfers being done via EDR.
+- any External USB / Drives were connected using registry forensic
 
 Got links for most of these
 
